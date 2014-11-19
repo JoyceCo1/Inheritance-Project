@@ -1,9 +1,9 @@
 
 public abstract class Bird extends Animal
 	{
-	public void bearYoung()
+	public void bearsYoung()
 		{
 		System.out.println("Ooo, a cute little egg!");
 		}
-	public abstract void makeNoise();
+	public abstract void makesNoise();
 	}

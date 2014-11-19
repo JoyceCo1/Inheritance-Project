@@ -1,7 +1,12 @@
 
-public class Penguin extends Bird implements flyable
+public class Penguin extends Bird implements Flyable
 	{
-	public void makeNoise()
+	public Penguin()
+	{
+		name = "penguin";
+		food = "fish";
+	}
+	public void makesNoise()
 		{
 		System.out.println("The penguin says \"Brrr....\"");
 		}

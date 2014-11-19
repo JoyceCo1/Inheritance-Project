@@ -3,11 +3,11 @@ public class Bat extends Mammal implements Flyable
 	{
 	public Bat()
 	{
-	name = "Bat";
+	name = "bat";
 	food = "insects";
 	}
 	
-	public void makeNoise()
+	public void makesNoise()
 		{
 		System.out.println("The bat emits an ultrasonic pulse.");
 		}
